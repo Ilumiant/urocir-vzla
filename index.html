@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UROCIR – Más que una clínica, aliados en tu bienestar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header y navegación -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#hero" class="logo">
+        <img src="https://via.placeholder.com/150x50?text=UROCIR" alt="Logo UROCIR">
+      </a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#hero">Inicio</a></li>
+          <li><a href="#por-que-elegirnos">¿Por qué elegirnos?</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#citas">Citas</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Abrir menú">&#9776;</button>
+    </div>
+  </header>
+
+  <!-- Sección Hero -->
+  <section id="hero" class="hero">
+    <div class="overlay"></div>
+    <div class="container hero-content">
+      <h1>Tu salud urológica en manos expertas</h1>
+      <p>Más que una clínica, aliados en tu bienestar</p>
+      <a href="#citas" class="btn btn-primary">Agenda tu cita</a>
+    </div>
+  </section>
+
+  <main class="container">
+
+    <!-- ¿Por qué elegirnos? -->
+    <section id="por-que-elegirnos" class="why-us">
+      <h2>¿Por qué elegirnos?</h2>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Valores</h3>
+          <p>Profesionalismo, ética y vocación.</p>
+        </div>
+        <div class="card">
+          <h3>Trayectoria</h3>
+          <p>Más de 20 años en urología y cirugía.</p>
+        </div>
+        <div class="card">
+          <h3>Experiencia</h3>
+          <p>Equipo con formación internacional.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="services">
+      <h2>Servicios</h2>
+      <div class="grid-4">
+        <div class="service-card">
+          <img src="https://via.placeholder.com/80?text=🔍" alt="Consulta urológica">
+          <h4>Consulta urológica</h4>
+        </div>
+        <div class="service-card">
+          <img src="https://via.placeholder.com/80?text=🔪" alt="Cirugía mínimamente invasiva">
+          <h4>Cirugía mínimamente invasiva</h4>
+        </div>
+        <div class="service-card">
+          <img src="https://via.placeholder.com/80?text=💊" alt="Tratamiento prostático">
+          <h4>Tratamiento prostático</h4>
+        </div>
+        <div class="service-card">
+          <img src="https://via.placeholder.com/80?text=👩‍⚕️" alt="Salud urinaria femenina">
+          <h4>Salud urinaria femenina</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formulario de Citas -->
+    <section id="citas" class="appointments">
+      <h2>Agenda tu cita</h2>
+      <form class="form-vertical">
+        <input type="text" name="nombre" placeholder="Nombre completo" required />
+        <select name="especialidad" required>
+          <option value="">Especialidad requerida</option>
+          <option value="urologia">Consulta urológica</option>
+          <option value="cirugia">Cirugía mínimamente invasiva</option>
+          <option value="prostata">Tratamiento prostático</option>
+          <option value="femenina">Salud urinaria femenina</option>
+        </select>
+        <input type="date" name="fecha" required />
+        <textarea name="comentarios" rows="4" placeholder="Comentarios adicionales"></textarea>
+        <button type="submit" class="btn btn-secondary">Enviar solicitud</button>
+      </form>
+      <a href="https://wa.me/584121675600" class="btn-whatsapp">WhatsApp / Llamar</a>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="blog-preview">
+      <h2>Blog</h2>
+      <div class="grid-2">
+        <article class="post-card">
+          <img src="https://via.placeholder.com/400x250?text=Artículo+1" alt="">
+          <h4>Cómo prepararte para tu consulta</h4>
+          <p>Consejos prácticos para aprovechar al máximo tu visita al urólogo.</p>
+          <a href="#" class="read-more">Leer más →</a>
+        </article>
+        <article class="post-card">
+          <img src="https://via.placeholder.com/400x250?text=Artículo+2" alt="">
+          <h4>Técnicas de cirugía mínimamente invasiva</h4>
+          <p>Ventajas y procedimientos más comunes en laparoscopia y endoscopia.</p>
+          <a href="#" class="read-more">Leer más →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact">
+      <h2>Contacto</h2>
+      <form class="form-vertical">
+        <input type="text" name="nombre" placeholder="Nombre completo" required />
+        <input type="email" name="email" placeholder="Correo electrónico" required />
+        <input type="text" name="asunto" placeholder="Asunto" />
+        <textarea name="mensaje" rows="4" placeholder="Mensaje"></textarea>
+        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+      </form>
+      <div class="contact-info">
+        <p><strong>Dirección:</strong> Av. Principal, Cabimas, Zulia</p>
+        <p><strong>Teléfono:</strong> (0412) 167-5600</p>
+        <p><strong>Horario:</strong> Lun–Vie 8:00 – 17:00</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 UROCIR. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript para menú responsive -->
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav   = document.querySelector('.main-nav ul');
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('visible');
+    });
+  </script>
+
+</body>
+</html>
